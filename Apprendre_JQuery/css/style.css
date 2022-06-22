@@ -35,7 +35,10 @@ h1
     z-index: 1;
 }
 
-
+#content article
+{
+    margin : 1em 0;
+}
 
 #content a
 {
