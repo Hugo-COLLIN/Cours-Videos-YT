@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/*
+--- Global ---
+ */
+
+html, body
+{
+    padding: 0;
+    margin: 0;
+}
+
+.col-md-4
+{
+    padding: 0;
+}
+
+hr
+{
+    width: 70%;
+}
+
+h1
+{
+    text-align: center;
+}
+
+/*
+--- Photo gallery ---
+ */
+img
+{
+    position: relative;
+    margin-top: 30px;
+}
+
+.hov
+{
+    /*position: absolute;
+    top: 30px;*/
+    /*left: 0;*/
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: rgba(0,0,0, 0.6);
+    height: 250px;
+    width: 350px;
+    text-align: center;
+    color: #fff;
+}
+
+.content
+{
+    margin-top: 20%;
+    transform: translateY(-100px);
+    transition-duration: 0.5s;
+}
+
+.content_hover
+{
+    margin-top: 20%;
+    transform: translateY(0);
+    transition-duration: 0.5s;
+}
