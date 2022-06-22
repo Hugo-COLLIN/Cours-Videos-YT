@@ -1,3 +1,4 @@
+/*
 $(function () {
     let hov = ("#content a");
 
@@ -5,15 +6,15 @@ $(function () {
         $(this).find('span.bg').hide().fadeTo(500, 0.7);
     })
 })
-
+*/
 
 
 /*
 $(function () {
     //vars declaration
     let dark = $(".hov");
-    let img = $('img');
-    let content = $('.content');
+    let img = $('#gallery img');
+    //let content = $('.content');
 
     //hide hover
     dark.hide();
