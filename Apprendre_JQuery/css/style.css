@@ -28,10 +28,11 @@ h1
 /*
 --- Photo gallery ---
  */
-img
+#content img
 {
     position: relative;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
+    z-index: 1;
 }
 
 .hov
@@ -49,7 +50,7 @@ img
     text-align: center;
     color: #fff;
 }
-
+/*
 .content
 {
     margin-top: 20%;
@@ -62,4 +63,62 @@ img
     margin-top: 20%;
     transform: translateY(0);
     transition-duration: 0.5s;
+}
+*/
+
+#content a
+{
+    height: 250px;
+    width: 350px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+#content a img
+{
+    border: none;
+    height: 250px;
+    width: 350px;
+}
+
+#content a span
+{
+    position: absolute;
+    display: none;
+    z-index: 3;
+    top:25px;
+    left:25px;
+    text-align: center;
+}
+
+#content a:hover span
+{
+    display: block;
+}
+
+#content a span.title
+{
+    top:60px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#content a span.desc
+{
+    top:90px;
+    color:#bababa;
+    font-size: 0.9em;
+}
+
+#content a span.bg
+{
+    top: 0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: #000;
+    /*background-color: rgba(0,0,0, 0.6);*/
+    z-index: 2;
 }
