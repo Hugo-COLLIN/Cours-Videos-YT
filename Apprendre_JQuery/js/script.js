@@ -9,12 +9,12 @@ $(function () {
 */
 
 
-/*
+
 $(function () {
     //vars declaration
-    let dark = $(".hov");
-    let img = $('#gallery img');
-    //let content = $('.content');
+    let dark = $(".pane");
+    let img = $('#content article img');
+    let content = $('.pane_info');
 
     //hide hover
     dark.hide();
@@ -22,12 +22,11 @@ $(function () {
     //show dark on img hover
     img.mouseenter(function () {
         $(this).next().fadeIn("slow");
-        content.addClass('.content_hover');
+        content.addClass('pane_info_hover');
     })
 
     dark.mouseleave(function () {
         $(this).fadeOut("slow");
-        content.removeClass('content_hover');
+        content.removeClass('pane_info_hover');
     })
 });
-*/
