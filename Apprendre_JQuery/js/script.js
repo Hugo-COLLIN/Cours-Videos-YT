@@ -1,4 +1,15 @@
 $(function () {
+    let hov = ("#content a");
+
+    hov.mouseenter(function () {
+        $(this).find('span.bg').hide().fadeTo(500, 0.7);
+    })
+})
+
+
+
+/*
+$(function () {
     //vars declaration
     let dark = $(".hov");
     let img = $('img');
@@ -18,3 +29,4 @@ $(function () {
         content.removeClass('content_hover');
     })
 });
+*/

@@ -35,12 +35,13 @@ h1
     z-index: 1;
 }
 
+/*
 .hov
 {
     /*position: absolute;
     top: 30px;*/
     /*left: 0;*/
-    display: inline-block;
+    /*display: inline-block;
     position: absolute;
     top: 0;
     left:0;
@@ -50,7 +51,7 @@ h1
     text-align: center;
     color: #fff;
 }
-/*
+
 .content
 {
     margin-top: 20%;
@@ -82,40 +83,42 @@ h1
     width: 350px;
 }
 
-#content a span
+#content a .hov
 {
     position: absolute;
     display: none;
     z-index: 3;
-    top:25px;
-    left:25px;
+    /*top:25px;
+    left:25px;*/
     text-align: center;
+    padding-top: 1em;
 }
 
-#content a:hover span
+#content a:hover .hov
 {
     display: block;
 }
 
-#content a span.title
+#content a .title
 {
+    margin-top: 1em;
     top:60px;
     color:#fff;
     font-weight: bold;
     font-size: 1.2em;
 }
 
-#content a span.desc
+#content a .desc
 {
     top:90px;
     color:#bababa;
     font-size: 0.9em;
 }
 
-#content a span.bg
+#content a .bg
 {
     top: 0;
-    left:0;
+    left: 0;
     height: 100%;
     width:100%;
     background-color: #000;
