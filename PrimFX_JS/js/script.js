@@ -1,3 +1,40 @@
+// RECUP ELEMS HTML
+// titre = document.getElementById("titre");
+// alert(titre.innerHTML);
+// console.log(titre);
+
+// var paragraphes = document.getElementsByTagName('p');
+// console.log(paragraphes);
+//
+// for (let i = 0 ; i < paragraphes.length ; i ++)
+// {
+//     console.log(paragraphes[i].innerHTML);
+//     alert(paragraphes[i].innerHTML);
+// }
+
+// var input = document.getElementsByName('pseudo');
+// console.log(input);
+// alert(input);
+//
+// for (let i = 0 ; i < input.length ; i ++)
+// {
+//     console.log(input[i].value);
+//     alert(input[i].value);
+// }
+
+// var parags = document.querySelector(".paragraphe"); //Renvoie le 1er élément
+// console.log(parags);
+//alert(parags);
+
+parags = document.querySelectorAll(".paragraphe"); //Renvoie le 1er élément
+console.log(parags);
+alert(parags);
+
+for (let i = 0 ; i < parags.length ; i ++)
+{
+    console.log(parags[i].innerHTML);
+    alert(parags[i].innerHTML);
+}
 
 
 
